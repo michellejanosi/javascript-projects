@@ -17,3 +17,4 @@ function hideLightbox() {
 
 document.getElementById('show').onclick = showLightbox;
 document.getElementById('hide').onclick = hideLightbox;
+document.getElementById('overlay').onclick = hideLightbox;
