@@ -5,7 +5,7 @@
   - should hide when clicked outside of box
 */
 
-let lightbox = document.getElementById('lightbox');
+let lightbox = document.getElementById('lightbox-container');
 
 function showLightbox() {
   lightbox.style.display = 'block';

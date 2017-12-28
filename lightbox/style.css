@@ -1,0 +1,26 @@
+#lightbox {
+  width: 400px;
+  height: 300px;
+  background-color: #f8f7f3;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#lightbox-container {
+  position: fixed;
+  text-align: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#hide {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
