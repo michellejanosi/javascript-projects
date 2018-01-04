@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pizza Order 🍕</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="pizzaForm" autocomplete="off">
+    <label>
+      <input type="radio" id="small" value="8" name="size" data-itemname="Small (6 pieces)">
+      Small: $8
+    </label>
+
+    <label>
+      <input type="radio" id="medium" value="10" name="size" data-itemname="Medium (8 pieces)">
+      Medium: $10
+    </label>
+
+    <label>
+      <input type="radio" id="large" value="12" name="size" data-itemname="Large (10 pieces)">
+      Large: $12
+    </label>
+  </form>
+
+  <div>
+    Selections:
+    <div id="selections"></div>
+    Total price: <span id="price"></span>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

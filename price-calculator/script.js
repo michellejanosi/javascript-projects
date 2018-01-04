@@ -10,3 +10,6 @@
   - handling display
     - show a list of user selected items and total price
 */
+
+let price = 0;
+document.getElementById('price').innerHTML = price;
